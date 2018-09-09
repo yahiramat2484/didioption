@@ -1,6 +1,7 @@
 tenser
 activate
 .idea
+*.pyc
 __pycache__
 .pytest_cache
 settings.cfg
