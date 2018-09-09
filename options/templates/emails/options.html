@@ -1,0 +1,73 @@
+Hello Options,
+<table>
+    <tr>
+        <th>Ticket</th>
+        <th>Volumen</th>
+        <th>Bid</th>
+        <th>Strike</th>
+        <th>Type</th>
+        <th> Expiration</th>
+    </tr>
+    <tr>
+        <td>1st place :{{data["data"][0]["raw"]["baseSymbol"]}}</td>
+        <td>{{data["data"][0]["raw"]["volume"]}}</td>
+        <td>{{data["data"][0]["raw"]["bidPrice"]}}</td>
+        <td>{{data["data"][0]["raw"]["strikePrice"]}}</td>
+        <td>{{data["data"][0]["raw"]["symbolType"]}}</td>
+        <td>{{data["data"][0]["raw"]["expirationDate"]}}</td>
+    </tr>
+    <tr>
+        <td>2nd place: {{data["data"][1]["raw"]["baseSymbol"]}}</td>
+        <td>{{data["data"][1]["raw"]["volume"]}}</td>
+        <td>{{data["data"][1]["raw"]["bidPrice"]}}</td>
+        <td>{{data["data"][1]["raw"]["strikePrice"]}}</td>
+        <td>{{data["data"][1]["raw"]["symbolType"]}}</td>
+        <td>{{data["data"][1]["raw"]["expirationDate"]}}</td>
+</tr>
+       <tr>
+           <td>3rd place: {{data["data"][2]["raw"]["baseSymbol"]}}</td>
+           <td>{{data["data"][2]["raw"]["volume"]}}</td>
+           <td>{{data["data"][2]["raw"]["bidPrice"]}}</td>
+           <td>{{data["data"][2]["raw"]["strikePrice"]}}</td>
+           <td>{{data["data"][2]["raw"]["symbolType"]}}</td>
+           <td>{{data["data"][2]["raw"]["expirationDate"]}}</td>
+       </tr>
+    <tr>
+        <td>4th place Ticket: {{data["data"][3]["raw"]["baseSymbol"]}}</td>
+        <td>{{data["data"][3]["raw"]["volume"]}}</td>
+        <td>{{data["data"][3]["raw"]["bidPrice"]}}</td>
+        <td>{{data["data"][3]["raw"]["strikePrice"]}}</td>
+        <td>{{data["data"][3]["raw"]["symbolType"]}}</td>
+        <td>{{data["data"][3]["raw"]["expirationDate"]}}</td>
+</tr>
+<tr>
+    <td>100th place: {{data["data"][-1]["raw"]["baseSymbol"]}}</td>
+    <td>{{data["data"][-1]["raw"]["volume"]}}</td>
+    <td>{{data["data"][-1]["raw"]["bidPrice"]}}</td>
+    <td>{{data["data"][-1]["raw"]["strikePrice"]}}</td>
+    <td>{{data["data"][-1]["raw"]["symbolType"]}}</td>
+    <td>{{data["data"][-1]["raw"]["expirationDate"]}}</td>
+</tr>
+    <tr>
+        <td>99th place: {{data["data"][-2]["raw"]["baseSymbol"]}}</td>
+        <td>{{data["data"][-2]["raw"]["volume"]}}</td>
+        <td>{{data["data"][-2]["raw"]["bidPrice"]}}</td>
+        <td>{{data["data"][-2]["raw"]["strikePrice"]}}</td>
+        <td>{{data["data"][-2]["raw"]["symbolType"]}}</td>
+        <td>{{data["data"][-2]["raw"]["expirationDate"]}}</td>
+    </tr>
+    <tr>
+        <td>98th place: {{data["data"][-3]["raw"]["baseSymbol"]}}</td>
+        <td>{{data["data"][-3]["raw"]["volume"]}}</td>
+        <td>{{data["data"][-3]["raw"]["bidPrice"]}}</td>
+        <td>{{data["data"][-3]["raw"]["strikePrice"]}}</td>
+        <td>{{data["data"][-3]["raw"]["symbolType"]}}</td>
+        <td>{{data["data"][-3]["raw"]["expirationDate"]}}</td>
+    <tr>
+    <td>97th place: {{data["data"][-4]["raw"]["baseSymbol"]}}</td>
+    <td>{{data["data"][-4]["raw"]["volume"]}}</td>
+    <td>{{data["data"][-4]["raw"]["bidPrice"]}}</td>
+    <td>{{data["data"][-4]["raw"]["strikePrice"]}}</td>
+    <td>{{data["data"][-4]["raw"]["symbolType"]}}</td>
+    <td>{{data["data"][-4]["raw"]["expirationDate"]}}</td>
+</table>

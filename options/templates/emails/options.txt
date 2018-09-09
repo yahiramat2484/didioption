@@ -1,0 +1,14 @@
+Hello Options,
+
+1st place Ticket, Volume, bid, strike, type, ex:{{data["data"][0]["raw"]["baseSymbol"]}}, {{data["data"][0]["raw"]["volume"]}}, {{data["data"][0]["raw"]["bidPrice"]}}, {{data["data"][0]["raw"]["strikePrice"]}}, {{data["data"][0]["raw"]["symbolType"]}}, {{data["data"][0]["raw"]["expirationDate"]}}
+2nd place Ticket, Volume, bid, strike, type, ex:{{data["data"][1]["raw"]["baseSymbol"]}}, {{data["data"][1]["raw"]["volume"]}}, {{data["data"][1]["raw"]["bidPrice"]}}, {{data["data"][1]["raw"]["strikePrice"]}}, {{data["data"][1]["raw"]["symbolType"]}}, {{data["data"][1]["raw"]["expirationDate"]}}
+3rd place Ticket, Volume, bid, strike, type, ex:{{data["data"][2]["raw"]["baseSymbol"]}}, {{data["data"][2]["raw"]["volume"]}}, {{data["data"][2]["raw"]["bidPrice"]}}, {{data["data"][2]["raw"]["strikePrice"]}}, {{data["data"][2]["raw"]["symbolType"]}}, {{data["data"][2]["raw"]["expirationDate"]}}
+4th place Ticket, Volume, bid, strike, type, ex:{{data["data"][3]["raw"]["baseSymbol"]}}, {{data["data"][3]["raw"]["volume"]}}, {{data["data"][3]["raw"]["bidPrice"]}}, {{data["data"][3]["raw"]["strikePrice"]}}, {{data["data"][3]["raw"]["symbolType"]}}, {{data["data"][3]["raw"]["expirationDate"]}}
+
+
+Last place,
+100th place Ticket, Volume, bid, strike, type, ex:{{data["data"][-1]["raw"]["baseSymbol"]}}, {{data["data"][-1]["raw"]["volume"]}}, {{data["data"][-1]["raw"]["bidPrice"]}}, {{data["data"][-1]["raw"]["strikePrice"]}}, {{data["data"][-1]["raw"]["symbolType"]}}, {{data["data"][-1]["raw"]["expirationDate"]}}
+99th place Ticket, Volume, bid, strike, type, ex: {{data["data"][-2]["raw"]["baseSymbol"]}}, {{data["data"][-2]["raw"]["volume"]}}, {{data["data"][-2]["raw"]["bidPrice"]}}, {{data["data"][-2]["raw"]["strikePrice"]}}, {{data["data"][-2]["raw"]["symbolType"]}}, {{data["data"][-2]["raw"]["expirationDate"]}}
+98th place Ticket, Volume, bid, strike, type, ex: {{data["data"][-3]["raw"]["baseSymbol"]}}, {{data["data"][-3]["raw"]["volume"]}}, {{data["data"][-3]["raw"]["bidPrice"]}}, {{data["data"][-3]["raw"]["strikePrice"]}}, {{data["data"][-3]["raw"]["symbolType"]}}, {{data["data"][-3]["raw"]["expirationDate"]}}
+97th place Ticket, Volume, bid, strike, type, ex: {{data["data"][-4]["raw"]["baseSymbol"]}}, {{data["data"][-4]["raw"]["volume"]}}, {{data["data"][-4]["raw"]["bidPrice"]}}, {{data["data"][-4]["raw"]["strikePrice"]}}, {{data["data"][-4]["raw"]["symbolType"]}}, {{data["data"][-4]["raw"]["expirationDate"]}}
+

@@ -1,0 +1,7 @@
+tenser
+activate
+.idea
+__pycache__
+.pytest_cache
+settings.cfg
+migrations/
